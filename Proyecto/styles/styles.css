@@ -1,0 +1,159 @@
+header {
+background-color: #ffd1dcb6;
+padding: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}  
+   
+   /* Estilos CSS para el menú */
+   .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilo Barra Navegación */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #000000;
+    background-color:  #fab1c3;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Patua One', cursive;
+    font-size: 14px;
+    transition: background-color 0.1s;
+}
+
+.menu li a:hover {
+    background-color: #ccc;
+}
+
+/* Footer */
+footer {
+    background-color:  #af7a86;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.redes-sociales a:hover {
+    transform: scale(1.2);
+}
+
+.derechos-autor {
+    font-size: 14px;
+    color: #333;
+    margin: 0 20px;
+}
+
+.metodos-pago img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* FORMULARIO DE PRESUPUESTO */
+body {
+    background-image: url(../img/Fondo_pagina_rosa.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+form {
+    margin: 30px auto;
+    width: 30%;
+    max-width: 600px;
+    background-color: #f6e6f9;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Forum';
+    text-align:left;
+  }
+  
+  label {
+    display:inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #903d68;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #f2d7e3;
+    font-family: 'Forum';
+    font-size: 16px;
+    color: #903d68;
+  }
+  
+  input[type="submit"] {
+    background-color: #903d68;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Forum';
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #bb6085;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  
